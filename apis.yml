@@ -1,8 +1,29 @@
 aid: sharechat
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/sharechat.png
 name: Sharechat
-description: Sharechat is a company surfaced as a portfolio company of lightspeed-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: >-
+  ShareChat (Mohalla Tech Pvt. Ltd.) is an Indian social media company that
+  operates the regional-language social network ShareChat and the short-video
+  entertainment app Moj. The platform lets users across 15+ Indian languages
+  share posts, images, videos, shayari, quotes, and trending content through
+  personalized feeds. ShareChat monetizes through a self-serve advertising
+  platform (ShareChat Ads) offering campaign management, audience targeting, and
+  brand partnerships across its social and short-video surfaces. Backed by
+  Lightspeed Venture Partners and other investors, the company is one of the
+  largest homegrown social platforms in India. As of this profile, ShareChat
+  exposes consumer apps and a self-serve ad manager but publishes no public
+  developer program, API documentation, or programmatic API surface.
 url: https://raw.githubusercontent.com/api-evangelist/sharechat/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,12 +33,48 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
+- Social Media
+- Social Network
+- Short Video
+- User Generated Content
+- Content Sharing
+- Advertising
+- India
+- Regional Language
 apis: []
+common:
+- type: DomainSecurity
+  url: security/sharechat-domain-security.yml
+- type: Website
+  url: https://sharechat.com/
+- type: About
+  url: https://sharechat.com/about
+- type: Support
+  url: https://help.sharechat.com/
+- type: HelpCenter
+  url: https://help.sharechat.com/
+- type: Blog
+  url: https://sharechat.com/blogs
+- type: TermsOfService
+  url: https://help.sharechat.com/policies/terms
+- type: PrivacyPolicy
+  url: https://help.sharechat.com/policies/privacy-policy
+- type: ContentPolicy
+  url: https://help.sharechat.com/policies/content-policy
+- type: Careers
+  url: https://sharechat.com/careers
+- type: AdPlatform
+  url: https://ads.sharechat.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
