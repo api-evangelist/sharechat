@@ -47,7 +47,7 @@ created: '2026-07-17'
 modified: '2026-07-21'
 tags:
 - Company
-- Social-Media
+- Social Media
 - Social Network
 - Short Video
 - User Generated Content
@@ -65,6 +65,7 @@ tags_raw:
 - Advertising
 - India
 - Regional Language
+- Social-Media
 apis: []
 common:
 - type: DomainSecurity
